@@ -1,0 +1,42 @@
+.square {
+    background-color: lightblue;
+    border: 1px solid navy;
+    height: 100px;
+    width: 100px;
+    margin:10px auto;
+}
+.mouseOver {
+    background-color: navy;
+    border: 1px solid lightblue;
+    height: 100px;
+    width: 100px;
+    margin:10px auto;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.rond {
+    background-color: rgb(70, 195, 236);
+    border: 1px solid rgb(24, 24, 240);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin:10px auto;
+    display: flex;
+    object-fit: cover;
+}
+.image {
+    background-color: transparent;
+    border: 1px solid rgb(24, 24, 240);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin:10px auto;
+}
+img {
+    border-radius: 50%;
+    z-index: -1;
+    height: 100%;
+    width:100%;
+}
