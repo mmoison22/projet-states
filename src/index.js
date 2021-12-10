@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Compteurs from "./components/Compteurs";
 import Selecteurs from "./components/Selecteurs";
+import Velo from "./components/Velo";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="compteurs" element={<Compteurs />} />
         <Route path="selecteurs" element={<Selecteurs />} />
+        <Route path="velo" element={<Velo />} />
 
       </Routes>
     </BrowserRouter>
