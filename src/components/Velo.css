@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cadreVert {
+    margin: 1rem auto;
+    background-color: rgb(51, 153, 51);
+    border: 2px solid black;
+    width:40vw;
+    font-size: 2rem;
+}
+.item {
+    margin: 1rem auto;
+    background-color: grey;
+    border: 2px solid black;
+    width:30vw;
+    font-size: 1.5rem;
+}
+.itemSelected {
+    margin: 1rem auto;
+    background-color: rgb(197, 11, 11);
+    border: 2px solid black;
+    width:30vw;
+    font-size: 1.5rem;
+}
